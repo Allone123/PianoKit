@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: cadetblue;
+}   
+
+h1 {
+    font-size: 7rem;
+    font-family:cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 0px rgb(160, 132, 189);
+}
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+    margin-top: 14%;
+}
+
+.set { 
+    position: relative;
+    height: 200px;
+    font-size: 0px;
+}
+
+button {
+    font-size: 50px;
+    text-align:center;
+    color:teal;
+    vertical-align: bottom;
+    padding: 100px;   
+}
+.white {
+    width: 85px;
+    height: 360px;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    left:25px;
+    border: solid black 2.5px;
+    border-radius: 15px;
+}
+
+.black {
+    width: 60px;
+    height: 240px;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/blackkey.png");
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+
