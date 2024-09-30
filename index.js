@@ -97,5 +97,3 @@ function addAnimation(key, sharp) {
         },100);
     }
 }
-
-
